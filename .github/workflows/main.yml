@@ -13,7 +13,7 @@ jobs:
           run: |
             echo "my first github action"
             ls
-            cat README.mc
+            cat README.md
 
         - name: Generate ASCII Artwork
           run: cosway -f dragon "blah blah Dragon" >> dragon.txt
